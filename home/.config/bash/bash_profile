@@ -1,0 +1,4 @@
+source $BASHDIR/bashrc
+
+ulimit -n 2048
+

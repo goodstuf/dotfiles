@@ -1,0 +1,29 @@
+# See how to configure Vinegar on the documentation website:
+# https://vinegarhq.github.io/Configuration
+
+wineroot = "/home/fffai/.local/share/lutris/runners/wine/lutris-GE-Proton8-23-x86_64/"
+
+[env]
+WINEESYNC = "1"
+WINEFSYNC = "1"
+
+[player]
+dxvk     = true
+renderer = "D3D11"
+launcher = "gamemoderun"
+
+# live channel causes game to crash.
+# so will be using zavaatarteam2 channel temporarly.
+channel  = "live"
+
+[player.env]
+MANGOHUD  = "1"
+
+[player.fflags]
+FFlagHandleAltEnterFullscreenManually = true
+DFIntTaskSchedulerTargetFps = 140
+
+[studio]
+dxvk=false
+renderer="OpenGL"
+
