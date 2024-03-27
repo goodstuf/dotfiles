@@ -20,7 +20,7 @@ autoload -Uz compinit promptinit
 compinit
 promptinit
 
-compinit -d "$ZDOTDIR"/cache/zcompdump-"$ZSH_VERSION"
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 # This will set the default prompt to the walters theme
 prompt redhat
 
