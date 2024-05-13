@@ -17,10 +17,10 @@ unsetopt beep notify
 bindkey -e
 
 autoload -Uz compinit promptinit
-compinit
+#compinit
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 promptinit
 
-compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 # This will set the default prompt to the walters theme
 prompt redhat
 
