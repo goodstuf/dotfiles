@@ -25,7 +25,8 @@
         "separator",
         {
             "type": "packages",
-            "key": "󰏗 "
+            "key": "󰏗 ",
+            "keyColor": "green"
         },
         {
             "type": "wm",
