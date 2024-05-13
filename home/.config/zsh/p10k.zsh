@@ -41,9 +41,9 @@
   local grey='242'
   local red='#FF5C57'
   local yellow='#F3F99D'
-  local blue='#57C7FF'
-  local magenta='#FF6AC1'
-  local cyan='#9AEDFE'
+  local blue='#33b1ff'
+  local magenta='#ee5396'
+  local cyan='#3ddbd9'
   local white='#F1F1F0'
 
   # Left prompt segments.
@@ -80,7 +80,7 @@
   # Red prompt symbol if the last command failed.
   typeset -g POWERLEVEL9K_PROMPT_CHAR_ERROR_{VIINS,VICMD,VIVIS}_FOREGROUND=$red
   # Default prompt symbol.
-  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION='❯'
+  typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VIINS_CONTENT_EXPANSION='$'
   # Prompt symbol in command vi mode.
   typeset -g POWERLEVEL9K_PROMPT_CHAR_{OK,ERROR}_VICMD_CONTENT_EXPANSION='❮'
   # Prompt symbol in visual vi mode is the same as in command mode.

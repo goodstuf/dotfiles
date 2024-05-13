@@ -58,4 +58,4 @@ alias clr=clear
 alias ls='ls --color=auto'
 PS1="\W > "
 
-source ~/.local/share/nvim/mason/packages/jedi-language-server/venv/bin/activate
+#source ~/.local/share/nvim/mason/packages/jedi-language-server/venv/bin/activate
