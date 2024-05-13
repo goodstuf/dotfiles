@@ -26,12 +26,12 @@
         {
             "type": "packages",
             "key": "󰏗 ",
-            "keyColor": "green"
+            "keyColor": "blue"
         },
         {
             "type": "wm",
             "key": " ",
-            "keyColor": "blue"
+            "keyColor": "green"
         },
         {
             "type": "terminal",
