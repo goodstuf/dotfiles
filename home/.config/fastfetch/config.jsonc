@@ -7,6 +7,9 @@
         "height": 15,
         "preserveAspectRatio": true
     },
+    "display": {
+        "separator": " "
+    },
     "modules": [
         {
             "type": "separator",
