@@ -39,9 +39,7 @@ session=${1:-awesome}
 
 case $session in
     awesome|awesome        ) 
-        nvidia-settings &
-        sleep 1; pkill nvidia-settings &
-        exec awesome;;
+        exec /usr/bin/awesome >> ~/.cache/awesome/stdout 2>> ~/.cache/awesome/stderr;;
     # No known session, try to run it as command
     *                 ) exec $1;;
 esac

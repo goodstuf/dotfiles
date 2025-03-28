@@ -52,9 +52,9 @@ export EDITOR=nvim
 export TERM=kitty
 
 # my aliases
-alias sudo=doas
-alias sudoedit="doas nvim"
-alias vim=nvim
+#alias sudo=doas
+#alias sudoedit="doas nvim"
+#alias vim=nvim
 alias clr=clear
 
 alias ls='ls --color=auto'
