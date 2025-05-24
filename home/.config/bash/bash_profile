@@ -1,6 +1,0 @@
-source $BASHDIR/bashrc
-
-ulimit -n 2048
-
-# For goverlay(and maybe other apps) to be able to read intel cpu power draw
-doas chmod o+r /sys/class/powercap/intel-rapl:0/energy_uj

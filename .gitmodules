@@ -1,6 +1,0 @@
-[submodule "home/.config/awesome"]
-	path = home/.config/awesome
-	url = https://github.com/goodstuf/My-AwesomeWM-Config
-[submodule "home/.config/nvim"]
-	path = home/.config/nvim
-	url = https://github.com/goodstuf/My-NeoVim-Config
